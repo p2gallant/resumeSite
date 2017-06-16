@@ -2,28 +2,62 @@
 
 img {
 	position: fixed;
+	top: 0; left: 0;
 	max-width: 100%;
 	height: auto;
 	width: auto\9; /*for ie8 */
+}
+
+#header{
+	position: absolute;
+	top: 0; left: 0;
+	height: 100px;
+	max-width: 100%;
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+
+input{
+	text-shadow: 0px 0px 5px #000000;
+	font-family: "Courier New", courier, serif;
+	font-size: 42px;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+}
+
+#resume{
+	color: #ce5858;
+}
+
+#portfolio{
+	color: #58cece;
+}
+
+#contact{
+	color: #cea958;
+}
+
+input[type="button"]:hover{
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s; /* for safari*/
+	background-color: rgba(255,255,255,0.6);
 }
 
 body {
 	background-color: #888888;
 }
 
-div#header{
+#sidebar {
 	position: absolute;
-	top: 0; left: 0;
-	height: 100px;
-	width: 100%;
 	float: left;
-	margin: 10px 10px 10px 10px;
+	top: 100px; left: 10px;
+	border: 1px solid #ffffff;
 }
 
-h1#firstHeader{
-	text-align: center;
-	text-shadow: 0px 0px 5px #000000;
-	color: #FFFFFF;
-	font-family: "Courier New", courier, serif;
-	font-size: 42px;
+#mainWindow {
+	position: relative;
+	border: 1px solid #ffffff;
 }
