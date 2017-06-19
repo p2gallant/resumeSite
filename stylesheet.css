@@ -1,11 +1,17 @@
 @import "w3.css";
 
-img {
+#background {
 	position: fixed;
-	top: 0; left: 0;
+	top: 0%; left: 0%;
 	max-width: 100%;
 	height: auto;
 	width: auto\9; /*for ie8 */
+}
+
+#pgg {
+	position: fixed;
+	top: -3%; right: 1%;
+	height: 10%; width: auto;
 }
 
 #filter {
@@ -15,7 +21,7 @@ img {
 }
 
 #header{
-	position: absolute;
+	position: fixed;
 	top: 0; left: 0;
 	height: 100px;
 	max-width: 100%;
@@ -62,4 +68,15 @@ body {
 	top: 90%;
 	min-height: 200px; width: 100%;
 	background-color: #ffffff;
+}
+
+#exampleContent {
+	float: left;
+	margin-left: 20%;
+}
+
+#declaration {
+	float: left;
+	margin-left: 20%;
+	margin-right: 10%;
 }
