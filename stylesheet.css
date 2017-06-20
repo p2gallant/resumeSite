@@ -40,16 +40,26 @@ input{
 	float: left;
 }
 
-#resume{
+#resume {
 	color: #ce5858;
 }
 
-#portfolio{
+#portfolio {
 	color: #58cece;
 }
 
-#contact{
+#contact {
 	color: #cea958;
+}
+
+#announcement {
+	position: fixed;
+	top: 45%; left: 0%;
+	text-align: center;
+	font-size: 300%;
+	color: #ffffff;
+	float: left;
+	width: 100%; height: 15%;
 }
 
 input[type="button"]:hover{
